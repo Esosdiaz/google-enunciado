@@ -54,28 +54,15 @@
 
 .newsfeed{
 	border-top: 3px solid $azul;
-	border-bottom: 3px solid $azul;
-	margin: 40px;
-	padding-bottom: 40px;
-	padding-top: 40px;
+	@include contenedores();
 }
 .news-izq{
 	.img-caja{
 		width:100%;
 	}
+	@include cajas();
 	h3{
-		font-size: $subtitulo2;
-		padding-bottom: 15px;
-		font-weight: 700;
-	}
-	small{
-		font-family: 'Droid Sans Mono', monospace;
-	}
-	img{
-		width: 100%;
-	}
-	p{
-		padding-top: 30px;
+		padding-bottom: 30px;
 	}
 }
 .news-der{
@@ -115,4 +102,59 @@
 			}
 		}
 	}
+}
+.trabajos{
+	@include contenedores();
+	.row{
+		.col-6{
+			.caja-trabajos{
+				@include cajas();
+				padding-bottom: 50px;
+				small{
+					padding-top: 20px;
+				}
+			}
+		}
+
+	}
+
+}
+.footer-google{
+	padding:40px;
+	.row{
+		padding-bottom: 40px;
+		.col-3{
+			small{
+				font-weight: 700;
+			}
+			p{
+				font-size: 13px;
+			}
+			ul{
+				li{
+					list-style: none;
+					a{
+						color: $grisOscuroTitulos;
+						font-size: 13px
+
+					}
+				}
+			}
+		}
+	}
+}
+.caja-links2{
+	padding-left: 70px;
+}
+.caja-links3{
+	padding-left: 230px;
+}
+.caja-links4{
+	padding-top: 30px;
+	padding-right: 120px; 
+	padding-left: 0px;
+}
+.footer-final{
+	padding: 40px;
+	border-top: 3px solid #E6E6E6;
 }
