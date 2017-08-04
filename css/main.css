@@ -76,14 +76,14 @@
   width: 100%;
   padding: 40px; }
   .podcast img {
-    width: 100%; }
+    width: 100%;
+    padding-bottom: 30px; }
   .podcast .textosPodcast {
     padding-left: 11px; }
     .podcast .textosPodcast h1 {
       color: #424242;
       font-style: 25px;
-      font-weight: 400;
-      padding-top: 40px; }
+      font-weight: 400; }
     .podcast .textosPodcast h2 {
       color: #424242;
       font-size: 18px;
@@ -94,5 +94,50 @@
       width: 81%; }
     .podcast .textosPodcast small {
       font-family: 'Droid Sans Mono', monospace; }
+
+.newsfeed {
+  border-top: 3px solid #4285f4;
+  border-bottom: 3px solid #4285f4;
+  margin: 40px;
+  padding-bottom: 40px;
+  padding-top: 40px; }
+
+.news-izq .img-caja {
+  width: 100%; }
+.news-izq h3 {
+  font-size: 22px;
+  padding-bottom: 15px;
+  font-weight: 700; }
+.news-izq small {
+  font-family: 'Droid Sans Mono', monospace; }
+.news-izq img {
+  width: 100%; }
+.news-izq p {
+  padding-top: 30px; }
+
+.news-der {
+  padding-bottom: 40px;
+  padding-top: 30px; }
+  .news-der .morenews .more a {
+    text-decoration: none;
+    color: #4285f4; }
+  .news-der .news {
+    padding-bottom: 30px; }
+    .news-der .news small {
+      font-family: 'Droid Sans Mono', monospace;
+      padding-bottom: 10px; }
+    .news-der .news h3 {
+      font-size: 22px;
+      padding-bottom: 3px;
+      font-weight: 700; }
+  .news-der .news-recuadro {
+    background-color: #F1F3F4;
+    padding: 5px; }
+    .news-der .news-recuadro .row .textRec {
+      padding-left: 35px;
+      padding-right: 35px; }
+    .news-der .news-recuadro .row .imgRec {
+      padding-right: 35px;
+      padding-left: 200px; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,118 @@
+
+.logo{
+	padding-top: 60px;
+}
+
+.nav{
+	ul{
+		li{
+			display:inline-block;
+			list-style: none;
+			padding-top: 30px;
+			padding-bottom: 30px;
+			padding-right: 15px;
+			padding-left: 15px;
+			a{
+				color:$grisOscuroTitulos;
+				font-size:$texto;
+				font-weight: 700;
+			}
+		}
+	}
+}
+
+.podcast{
+	width:100%;
+	padding:40px;
+	img{
+		width:100%;
+		padding-bottom: 30px;
+
+	}
+	.textosPodcast{
+		padding-left: 11px; 
+		h1{
+			color: $grisOscuroTitulos;
+			font-style: $titulo;
+			font-weight: 400;
+		}
+		h2{
+			color:$grisOscuroTitulos;
+			font-size: $subtitulo;
+			font-weight: 700;
+		}
+		p{
+			color: $grisTexto;
+			font-size: $texto;
+			width: 81%;
+		}
+		small{
+			font-family: 'Droid Sans Mono', monospace;
+		}
+	}
+}
+
+.newsfeed{
+	border-top: 3px solid $azul;
+	border-bottom: 3px solid $azul;
+	margin: 40px;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+.news-izq{
+	.img-caja{
+		width:100%;
+	}
+	h3{
+		font-size: $subtitulo2;
+		padding-bottom: 15px;
+		font-weight: 700;
+	}
+	small{
+		font-family: 'Droid Sans Mono', monospace;
+	}
+	img{
+		width: 100%;
+	}
+	p{
+		padding-top: 30px;
+	}
+}
+.news-der{
+	padding-bottom:40px;
+	padding-top:30px;
+	.morenews{
+		.more{
+			a{
+				text-decoration: none;
+				color: $azul;
+			}
+		}
+	}
+	.news{
+		padding-bottom: 30px;
+		small{
+			font-family: 'Droid Sans Mono', monospace;
+			padding-bottom: 10px; 
+		}
+		h3{
+			font-size: $subtitulo2;
+			padding-bottom: 3px;
+			font-weight: 700;
+		}	
+	}
+	.news-recuadro{
+		background-color: $recuadro;
+		padding: 5px;
+		.row{
+			.textRec{
+				padding-left:35px;
+				padding-right:35px;
+			}
+			.imgRec{
+				padding-right:35px;
+				padding-left:200px;
+			}
+		}
+	}
+}
